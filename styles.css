@@ -67,3 +67,7 @@
     line-height: 45px;
     font-weight: bold;
   }
+
+  .certificate img:hover{
+    width: 50%;
+  }
