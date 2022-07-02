@@ -1,6 +1,8 @@
 .skills {
     width: 650px;
     height: 400px;
+    padding: 60px 0;
+    margin-bottom: 60px;
 }
 
 .skills .title{
