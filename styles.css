@@ -1,0 +1,67 @@
+.skills {
+    width: 650px;
+    height: 400px;
+}
+
+.skills .title{
+    text-align: center;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: repeating-linear-gradient(0deg, 
+    transparent, transparent 19.5%, #aaa 20%);
+}
+
+.grid .bar {
+    background-color: #149ddd;
+    width: 45px;
+    height: var(--bar-value);
+    align-self: flex-start;
+    margin:0 auto;
+    border-radius: 3px 3px 0 0;
+    position:relative;
+}
+
+.grid .bar:hover {
+    opacity:0.7;
+}
+
+.grid .bar::after{
+    content: attr(title);
+    padding: 10px;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: bold;
+  }
+
+  .grid.horizontal{
+    flex-direction:column;
+    border-bottom: none;
+    border-left: 2px solid #aaa;
+    background-image: repeating-linear-gradient(90deg,
+    transparent,transparent 19.5%, #aaa 20%);
+  }
+
+  .grid.horizontal .bar{
+    height: 45px;
+    width: var(--bar-value);
+    align-self: flex-start;
+    margin: auto 0 auto 0;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .grid.horizontal .bar::after{
+    top: initial;
+    left: 100%;
+    padding: 0 10px;
+    white-space: nowrap;
+    position:absolute;
+    transform:rotate(0deg);
+    line-height: 45px;
+    font-weight: bold;
+  }
