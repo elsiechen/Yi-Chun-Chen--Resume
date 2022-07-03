@@ -1,5 +1,6 @@
 body {
     display: flex;
+    margin: 0;
 }
 
 .nav{
@@ -41,6 +42,9 @@ a {
     font-size: 20px;
 }
 
+.navli:hover{
+    text-shadow: 0 0 8px whitesmoke;
+}
 
 
 .container{
