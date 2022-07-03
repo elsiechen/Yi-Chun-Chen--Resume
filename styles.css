@@ -83,8 +83,8 @@ a {
     color: white;
 }
 
-#profile{
-    padding: 60px 20px;
+#profile, #work, #education, #skills, #certificate{
+    padding: 60px 20px 30px 20px;
 }
 
 .skills {
