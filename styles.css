@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0;
+    padding: 0;
 }
 
 .nav{
@@ -49,6 +50,19 @@ a {
 
 .container{
     flex: 3.5;
+}
+
+.contact{
+    min-height: 50%;
+    background-image: url(../images/cherry.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills {
