@@ -17,10 +17,6 @@ div.nav .center{
     padding: 0px;
 }
 
-div.nav .center ul{
-    padding: 0px;
-}
-
 .nav .top img{
     margin: 15px auto;
     width: 140px;
@@ -39,11 +35,10 @@ a {
     color: white;
 }
 
-
-
 .navli{
     list-style: none;
     margin: 40px 0;
+    font-size: 20px;
 }
 
 
