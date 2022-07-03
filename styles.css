@@ -1,3 +1,57 @@
+body {
+    display: flex;
+}
+
+.nav{
+    padding: 0 25px;
+    background-color: #002e6a;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.nav .center{
+    align-self: flex-start;
+    padding: 0px;
+}
+
+div.nav .center ul{
+    padding: 0px;
+}
+
+.nav .top img{
+    margin: 15px auto;
+    width: 140px;
+    border: 8px solid #232f71;
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.navli{
+    list-style: none;
+    margin: 40px 0;
+}
+
+
+
+.container{
+    flex: 3.5;
+}
+
 .skills {
     width: 650px;
     height: 400px;
