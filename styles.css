@@ -10,6 +10,7 @@ body {
 }
 
 .nav{
+    position: fixed;
     padding: 0 40px;
     background-color: #002e6a;
     color: white;
@@ -20,9 +21,13 @@ body {
     height: 3300px;
 }
 
+.container{
+    padding-left: 303px;
+}
+
 div.nav .center{
     align-self: flex-start;
-    padding: 0px;
+    padding: 0;
 }
 
 .nav .top img{
