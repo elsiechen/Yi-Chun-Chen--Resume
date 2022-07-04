@@ -23,6 +23,7 @@ body {
 
 .container{
     padding-left: 303px;
+
 }
 
 div.nav .center{
@@ -60,7 +61,7 @@ a {
 
 .contact{
     /* Set contact size as full page */
-    min-height: 27%;
+    min-height: 40.5%;
     /* Set fixed background image */
     background-image: url(../images/cherry.webp);
     background-size: cover;
