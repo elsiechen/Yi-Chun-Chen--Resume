@@ -26,6 +26,11 @@ body {
 
 }
 
+.head{
+    font-size: 32px;
+    color: #173b6c;
+}
+
 div.nav .center{
     align-self: flex-start;
     padding: 0;
