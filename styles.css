@@ -113,6 +113,14 @@ a {
     height: 600px;
 }
 
+li{
+    list-style: none;
+}
+
+.bullet{
+    list-style: circle;
+}
+
 .skills {
     width: 650px;
     height: 400px;
