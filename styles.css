@@ -31,6 +31,11 @@ body {
     color: #173b6c;
 }
 
+.head_course{
+    font-size: 22px;
+    color: #173b6c;
+}
+
 div.nav .center{
     align-self: flex-start;
     padding: 0;
