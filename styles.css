@@ -3,6 +3,7 @@ body {
     flex-direction: row;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 .container{
@@ -80,9 +81,18 @@ a {
     text-shadow: 0 0 8px whitesmoke;
 }
 
+button{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    background-color: #002e6a;
+    margin-top: 100px;
+}
+
 .contact{
     /* Set contact size as full page */
-    min-height: 40.5%;
+    min-height: 38.7%;
     /* Set fixed background image */
     background-image: url(../images/cherry.webp);
     background-size: cover;
