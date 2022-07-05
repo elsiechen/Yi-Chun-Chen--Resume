@@ -51,7 +51,7 @@ div.nav .center{
 }
 
 img.logo:hover{
-    width: 50px;
+    width: 60px;
 }
 
 .top {
@@ -87,7 +87,7 @@ button{
     padding: 10px;
     color: white;
     background-color: #002e6a;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .contact{
