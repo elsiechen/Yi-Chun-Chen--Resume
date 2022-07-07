@@ -96,18 +96,18 @@ button{
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
-    /* Center content with flexbox 
+    /* Center content with flexbox
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;*/
     /* Animation */
     font-weight:300;
     font-size:32px;
     padding-top:40vh;
     padding-left: 40vh;
     height:10vh;
-    overflow:hidden;
+    overflow: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
@@ -122,17 +122,17 @@ div.name {
   }
 
 div.name:first-of-type {
-    animation: showup 7s infinite;
+    animation: showup 7s ease 2s infinite;
 }
 
 div.name:last-of-type {
     width:0px;
-    animation: reveal 7s infinite;
+    animation: reveal 7s ease 2s infinite;
   }
   
   div.name:last-of-type span {
     margin-left:-355px;
-    animation: slidein 7s infinite;
+    animation: slidein 7s ease 2s infinite;
   }
   
   @keyframes showup {
@@ -164,6 +164,18 @@ div.name:last-of-type {
     color: white;
 }
 
+ul.no_padding{
+    padding: 0;
+    animation: slowshow 7s ease 2s infinite;
+}
+
+@keyframes slowshow {
+    0% {opacity:0;}
+    20% {opacity:0.5;}
+    50% {opacity:0.75}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
 .contact_li{
     list-style: none;
     margin: 10px 0;
