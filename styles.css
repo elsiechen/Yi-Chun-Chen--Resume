@@ -91,7 +91,7 @@ button{
     /* Set contact size as full page */
     min-height: 38.7%;
     /* Set fixed background image */
-    background-image: url(../images/cherry.webp);
+    background-image: url(./images/cherry.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
