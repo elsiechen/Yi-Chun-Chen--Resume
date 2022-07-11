@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -89,7 +96,7 @@ button{
 
 .contact{
     /* Set contact size as full page */
-    min-height: 38.7%;
+    min-height: 20.5%;
     /* Set fixed background image */
     background-image: url(./images/cherry.webp);
     background-size: cover;
@@ -131,7 +138,7 @@ div.name:last-of-type {
   }
   
   div.name:last-of-type span {
-    margin-left:-355px;
+    margin-left:-150px;
     animation: slidein 7s ease 2s infinite;
   }
   
@@ -152,9 +159,9 @@ div.name:last-of-type {
   @keyframes reveal {
       0% {opacity:0;width:0px;}
       20% {opacity:1;width:0px;}
-      30% {width:355px;}
+      30% {width:150px;}
       80% {opacity:1;}
-      100% {opacity:0;width:355px;}
+      100% {opacity:0;width:150px;}
   }
 
 
@@ -186,6 +193,10 @@ ul.no_padding{
 
 #profile, #work, #education, #skills, #certificate{
     padding: 50px 20px 25px 20px;
+}
+
+.profile p {
+    margin-bottom: 20px;
 }
 
 .course{
@@ -282,5 +293,56 @@ li{
   }
 
   .certificate img:hover{
-    width: 50%;
+    width: 90%;
   }
+
+/* For Tablets */
+@media (max-width: 768px){
+    .container {
+        width: 400px;
+    }
+    
+    .contact {
+        min-height: 100vh;
+        background-position: center;
+        padding-left: 10vh;
+        min-height: 15%;
+    }  
+
+    .name{
+        font-size: 30px;
+    }
+
+    .contact_li{
+        font-size: 12px;
+    }
+
+    .skills {
+        width: 280px;
+    }
+}
+
+/* For Mobile */
+@media (max-width: 540px){
+    .nav {
+        display: none;
+    }
+
+    .container {
+        padding: 0;
+        width: 400px;
+    }
+
+    .contact {
+        min-height: 15%;
+        background-position: center;
+        padding-left: 10vh;
+        height: auto;
+    }
+
+    .skills {
+        width: 280px;
+    }
+
+    
+}
