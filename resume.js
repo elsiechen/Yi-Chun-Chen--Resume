@@ -46,4 +46,28 @@ document.addEventListener('DOMContentLoaded', function(){
         toggle.style.color = 'white';
         toggle.style.backgroundColor = '002e6a';
     });
+
+    // Menu button in mobile view
+    let menuBtn = document.querySelector('.menuBtn');
+    let nav = document.querySelector('.nav');
+    let contact = document.querySelector('.contact');
+    
+    menuBtn.addEventListener('click', function(){
+        if(menuBtn.innerHTML == '☰'){
+            nav.style.display = 'block';
+            menuBtn.innerHTML = '⨉';
+            nav.style.position = 'fixed';
+            contact.style.opacity = 0.4;
+            skills.style.opacity = 0.1;
+            //nav.style.position = '-webkit-sticky';
+            //nav.style.height = '4500px'
+            
+            
+        }else{
+            nav.style.display = 'none';
+            menuBtn.innerHTML = '☰';
+            contact.style.opacity = 1;
+            skills.style.opacity = 1;
+        }
+    });
 });

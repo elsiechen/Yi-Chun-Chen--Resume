@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 *, *::before, *::after{
     box-sizing: inherit;
 }
@@ -127,7 +128,7 @@ button{
 }
 
 .menuBtn{
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 5%;
     display: none;
@@ -356,7 +357,7 @@ li{
 
     .contact {
         min-height: 60vh;
-        background-position: center;
+        /*background-position: center;*/
         padding-left: 10vh;
     }
 
