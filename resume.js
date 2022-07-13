@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function(){
     // Menu button in mobile view
     let menuBtn = document.querySelector('.menuBtn');
     let nav = document.querySelector('.nav');
-    let contact = document.querySelector('.contact');
     
     menuBtn.addEventListener('click', function(){
         if(menuBtn.innerHTML == '☰'){
@@ -64,4 +63,18 @@ document.addEventListener('DOMContentLoaded', function(){
             
         }
     });
+
+    
 });
+
+// Show nav if resize browser window in mobile view,
+    // open and close menuBtn, then broaden window,
+    // which makes nav hidden in broaden window
+    function showNav(){
+        let w = window.outerWidth;
+        let nav = document.querySelector('.nav');
+        if (w > 540 && nav.style.display == 'none'){
+            nav.style.display = 'block';
+            console.log(w);
+        }
+    }
