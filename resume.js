@@ -57,17 +57,11 @@ document.addEventListener('DOMContentLoaded', function(){
             nav.style.display = 'block';
             menuBtn.innerHTML = '⨉';
             nav.style.position = 'fixed';
-            contact.style.opacity = 0.4;
-            skills.style.opacity = 0.1;
-            //nav.style.position = '-webkit-sticky';
-            //nav.style.height = '4500px'
-            
             
         }else{
             nav.style.display = 'none';
             menuBtn.innerHTML = '☰';
-            contact.style.opacity = 1;
-            skills.style.opacity = 1;
+            
         }
     });
 });
