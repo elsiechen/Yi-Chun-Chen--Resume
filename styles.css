@@ -353,7 +353,7 @@ li{
     }
 
     .contact_li{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .skills {
@@ -374,8 +374,12 @@ li{
 
     .contact {
         min-height: 60vh;
-        /*background-position: center;*/
+        background-position: center;
         padding-left: 10vh;
+    }
+
+    .contact_li{
+        font-size: 16px;
     }
 
     .menuBtn{
